@@ -2,6 +2,3 @@ pandas
 seaborn
 matplotlib
 sklearn
-sklearn.linear_model
-sklearn.metrics
-sklearn.model_selection
