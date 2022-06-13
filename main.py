@@ -45,14 +45,14 @@ with st.echo(code_location='below'):
     y = dns_data.prices
 
     """
-    Let's try to do some simple ML
+    Let's try to do some simple ML. Here our features.
     """
     st.write(X.head(3))
 
     # для работы с категориальными признаками
     X = pd.get_dummies(X)
     """
-    Приведём наши категориальные признаки в более подходящий вид.(ru))0)
+    I used also special tecnique to work with categorial variables. You can find it in the other file, but now it is not neccesary.
     """
     X.head(3)
 
